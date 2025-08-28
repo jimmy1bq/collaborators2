@@ -13,5 +13,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void Update()
     {
         transform.position += new Vector3(0, LaserSpeed ,0) * Time.deltaTime;
+      
     }
 }
