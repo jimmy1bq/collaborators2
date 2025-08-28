@@ -2,18 +2,20 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    float posY;
+    [SerializeField] GameObject PlayerLaser1PreFab;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        posY = transform.position.y;
     }
     // Update is called once per frame
     void Update()
-    {
-       Vector3 comps = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+    {//don't use viewport point lol
+        Vector3 comps = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = new Vector3(
-        comps.x + comps.x+ comps.x + comps.x, 
-        comps.y+ comps.y + comps.y + comps.y, 0);
+        comps.x, 
+       posY, 0);
       
     }
 }
