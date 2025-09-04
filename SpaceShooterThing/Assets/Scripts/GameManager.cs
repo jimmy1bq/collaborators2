@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gameOverScreen;
     [SerializeField] TextMeshProUGUI ScoreDisplay;
 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake() {
        instnace = this;
@@ -31,6 +32,10 @@ public class GameManager : MonoBehaviour
     {
         score += newScoreValue;
         ScoreDisplay.text = "Score: " + score.ToString();
+    }
+    public int GetScore()
+    {
+        return score;
     }
     public void GameOver()
     {

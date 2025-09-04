@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -8109468040492065818}
   m_Layer: 0
   m_Name: PlayerLaser1
-  m_TagString: Untagged
+  m_TagString: PlayerLaser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   LaserSpeed: 15
+  Explosion: {fileID: 753163275463661017, guid: a65d82cfb85b98a42aca9e32e1f98af3, type: 3}
 --- !u!70 &-8109468040492065818
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -858,7 +858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   SpawnerRate: 3
   EnemyBlackPrefab: {fileID: 8197191148012440852, guid: 94713bea77e7d884fbadf367de61413a, type: 3}
-  EnemyOrangePreFab: {fileID: 3861707972956372389, guid: 5f9bb09d7161b6e4a9696b946a395935, type: 3}
+  EnemyBluePrefab: {fileID: 0}
   Boss: {fileID: 988580143489362088, guid: 6ce3b555f40f3ba4e99402a2f432e030, type: 3}
 --- !u!4 &1667321778
 Transform:
@@ -869,7 +869,7 @@ Transform:
   m_GameObject: {fileID: 1667321776}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.63, y: 13.61, z: 0}
+  m_LocalPosition: {x: -0.5, y: 7.36, z: 0}
   m_LocalScale: {x: 0.26734376, y: 0.4685395, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -992,11 +992,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 759251540780672566, guid: 76a6418efffe16c469d2eb8efad89eb3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.96
+      value: -8.39
       objectReference: {fileID: 0}
     - target: {fileID: 759251540780672566, guid: 76a6418efffe16c469d2eb8efad89eb3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.01
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 759251540780672566, guid: 76a6418efffe16c469d2eb8efad89eb3, type: 3}
       propertyPath: m_LocalRotation.w
